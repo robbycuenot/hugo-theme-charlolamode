@@ -1,0 +1,1 @@
+Start-Process powershell -Verb runas -ArgumentList "-NoExit -c cd '$pwd' ; choco install nodejs ; npm i -D prettier prettier-plugin-go-template"
